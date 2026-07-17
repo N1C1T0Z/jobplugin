@@ -1,0 +1,11 @@
+name: JobsMaster
+version: 1.0.0
+main: com.jobsmaster.JobsMaster
+api-version: 1.13
+author: Kodari
+depend: [XSeries]
+commands:
+  job:
+    description: Commande principale des métiers
+    usage: /<command>
+    aliases: [jobs, metier, metiers]
