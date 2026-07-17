@@ -1,0 +1,215 @@
+# ─── Configuration des Métiers ───
+
+jobs:
+  hunter:
+    display-name: "&cChasseur"
+    icon: "BOW"
+    description: "Tuez des créatures pour gagner de l'XP"
+    xp-per-kill:
+      ZOMBIE: 10
+      SKELETON: 10
+      SPIDER: 10
+      CREEPER: 15
+      ENDERMAN: 25
+      BLAZE: 30
+      WITHER_SKELETON: 20
+      PIGLIN: 15
+      HOGLIN: 20
+      ZOMBIFIED_PIGLIN: 10
+      CAVE_SPIDER: 12
+      PHANTOM: 15
+      WITCH: 20
+      VINDICATOR: 20
+      EVOKER: 30
+      RAVAGER: 40
+      PILLAGER: 15
+      GUARDIAN: 20
+      DROWNED: 10
+      HUSK: 10
+      STRAY: 10
+      WARDEN: 100
+      SLIME: 5
+      MAGMA_CUBE: 8
+      GHAST: 20
+      ENDERMITE: 5
+      SILVERFISH: 3
+      POLAR_BEAR: 15
+      WOLF: 10
+      COW: 5
+      SHEEP: 5
+      PIG: 5
+      CHICKEN: 5
+      RABBIT: 3
+      TURTLE: 5
+      DOLPHIN: 10
+      SQUID: 5
+      GLOW_SQUID: 5
+      AXOLOTL: 5
+      GOAT: 8
+      FROG: 3
+      ALLAY: 5
+      TADPOLE: 1
+      BEE: 5
+      CAT: 5
+      OCELOT: 5
+      PARROT: 5
+      FOX: 8
+      PANDA: 10
+      LLAMA: 8
+      TRADER_LLAMA: 8
+      MULE: 8
+      DONKEY: 8
+      HORSE: 10
+      BAT: 1
+      COD: 2
+      SALMON: 2
+      PUFFERFISH: 3
+      TROPICAL_FISH: 3
+      IRON_GOLEM: 25
+      SNOWMAN: 5
+
+  woodcutter:
+    display-name: "&6Bûcheron"
+    icon: "IRON_AXE"
+    description: "Coupez des arbres pour gagner de l'XP"
+    xp-per-block:
+      OAK_LOG: 5
+      SPRUCE_LOG: 5
+      BIRCH_LOG: 5
+      JUNGLE_LOG: 5
+      ACACIA_LOG: 5
+      DARK_OAK_LOG: 5
+      MANGROVE_LOG: 5
+      CHERRY_LOG: 5
+      STRIPPED_OAK_LOG: 3
+      STRIPPED_SPRUCE_LOG: 3
+      STRIPPED_BIRCH_LOG: 3
+      STRIPPED_JUNGLE_LOG: 3
+      STRIPPED_ACACIA_LOG: 3
+      STRIPPED_DARK_OAK_LOG: 3
+      STRIPPED_MANGROVE_LOG: 3
+      STRIPPED_CHERRY_LOG: 3
+      OAK_WOOD: 5
+      SPRUCE_WOOD: 5
+      BIRCH_WOOD: 5
+      JUNGLE_WOOD: 5
+      ACACIA_WOOD: 5
+      DARK_OAK_WOOD: 5
+      MANGROVE_WOOD: 5
+      CHERRY_WOOD: 5
+
+  farmer:
+    display-name: "&aAgriculteur"
+    icon: "WHEAT"
+    description: "Récoltez des cultures pour gagner de l'XP"
+    xp-per-block:
+      WHEAT: 8
+      CARROTS: 8
+      POTATOES: 8
+      BEETROOTS: 8
+      MELON: 5
+      PUMPKIN: 5
+      SUGAR_CANE: 4
+      CACTUS: 4
+      NETHER_WART: 10
+      BAMBOO: 2
+      COCOA: 6
+      SWEET_BERRY_BUSH: 3
+      KELP: 2
+      SEA_PICKLE: 3
+      MOSS_BLOCK: 1
+      MOSS_CARPET: 1
+      BROWN_MUSHROOM: 3
+      RED_MUSHROOM: 3
+      GLOW_BERRIES: 5
+      PITCHER_PLANT: 8
+      TORCHFLOWER: 6
+
+  builder:
+    display-name: "&bBuilder"
+    icon: "BRICK"
+    description: "Placez des blocs pour gagner de l'XP"
+    xp-per-place: 2
+    blacklist:
+      - TNT
+      - BEDROCK
+      - BARRIER
+      - COMMAND_BLOCK
+      - REPEATING_COMMAND_BLOCK
+      - CHAIN_COMMAND_BLOCK
+      - STRUCTURE_BLOCK
+      - JIGSAW
+      - END_PORTAL_FRAME
+      - END_PORTAL
+      - NETHER_PORTAL
+      - LAVA
+      - WATER
+      - AIR
+      - CAVE_AIR
+      - VOID_AIR
+
+  miner:
+    display-name: "&7Mineur"
+    icon: "DIAMOND_PICKAXE"
+    description: "Minez des minerais pour gagner de l'XP"
+    xp-per-block:
+      STONE: 1
+      COBBLESTONE: 1
+      DEEPSLATE: 1
+      GRANITE: 1
+      DIORITE: 1
+      ANDESITE: 1
+      TUFF: 1
+      CALCITE: 1
+      DRIPSTONE_BLOCK: 1
+      SANDSTONE: 1
+      RED_SANDSTONE: 1
+      NETHERRACK: 1
+      BLACKSTONE: 1
+      BASALT: 1
+      END_STONE: 1
+      COAL_ORE: 10
+      DEEPSLATE_COAL_ORE: 10
+      IRON_ORE: 15
+      DEEPSLATE_IRON_ORE: 15
+      COPPER_ORE: 10
+      DEEPSLATE_COPPER_ORE: 10
+      GOLD_ORE: 20
+      DEEPSLATE_GOLD_ORE: 20
+      NETHER_GOLD_ORE: 15
+      REDSTONE_ORE: 15
+      DEEPSLATE_REDSTONE_ORE: 15
+      LAPIS_ORE: 15
+      DEEPSLATE_LAPIS_ORE: 15
+      DIAMOND_ORE: 50
+      DEEPSLATE_DIAMOND_ORE: 50
+      EMERALD_ORE: 60
+      DEEPSLATE_EMERALD_ORE: 60
+      NETHER_QUARTZ_ORE: 10
+      ANCIENT_DEBRIS: 100
+      GLOWSTONE: 5
+
+# ─── Système de Niveaux ───
+level-system:
+  tiers:
+    - level-range: 1-10
+      xp-multiplier: 100
+    - level-range: 11-25
+      xp-multiplier: 250
+    - level-range: 26-50
+      xp-multiplier: 500
+    - level-range: 51-75
+      xp-multiplier: 1000
+    - level-range: 76-100
+      xp-multiplier: 2000
+  max-level: 100
+
+# ─── Récompenses ───
+rewards:
+  base-money: 50.0
+  money-per-level: 10.0
+
+# ─── Renaissance ───
+prestige:
+  max-prestige: 10
+  multiplier-per-prestige: 1.5
